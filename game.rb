@@ -19,7 +19,6 @@ class Game
     puts "#{winner.name} wins with a score of #{winner.lives}/3"
   end
 
-
   def round
     puts '-' * 8 + " ROUND #{@round} " + '-' * 8
     player = @players.first
@@ -42,5 +41,4 @@ class Game
     puts '-' * 8 + " GAME OVER " + '-' * 8
     puts "Good bye!\n\n"
   end
-
 end
